@@ -1,0 +1,21 @@
+var campaignTags = {
+		'[First Name]' 						: '[CustomerFirstName]',
+		'[Last Name]' 						: '[CustomerLastName]',
+		'[Customer Name]' 					: '[CustomerName]',
+		'[Business Name]' 					: '[BusinessName]',
+		'[Business Email]' 					: '[BusinessEmail]',
+		'[Business Address]' 				: '[BusinessAddress]',
+		'[Business Phone]' 					: '[BusinessPhone]',
+		'[Business Website]' 				: '[BusinessWebsite]',
+		'[Business Profile]' 				: '[BusinessProfile]',
+		'[Schedule Button]' 				: '[ScheduleButton]',
+		'[Easy Scheduler Tile (Small)]'		: '[EasySchedulerTile(Small)]',
+		'[Easy Scheduler Tile (Med)]' 		: '[EasySchedulerTile(Med)]',
+		'[ReviewButton - Demandforce]' 		: '[ReviewOnlyButton]',
+		'[Facebook Like]' 					: '[FacebookLike]',
+		'[Twitter Follow]' 					: '[TwitterFollow]',
+		'[ReviewButton - Yelp]' 			: '[ReviewBusinessYelp]',
+		'[ReviewButton - Google Places]'	: '[ReviewBusinessGoogle]',
+		'[ReviewButton - Yahoo! Local]'		: '[ReviewBusinessYahoo]',
+		'[Refer a Friend]' 					: '[ReferFriend]'
+	};

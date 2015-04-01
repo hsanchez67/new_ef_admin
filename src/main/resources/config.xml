@@ -1,0 +1,42 @@
+<config version="$Revision: 1.0 $">
+  <property name="error.nodegroup.config.mail.to" type="java.lang.String">SBMS-DFAdminToolsCN@intuit.com</property>
+  <property name="error.nodegroup.config.mail.subject" type="java.lang.String">Nodegroup Configuration Error</property>
+  <property name="error.nodegroup.config.freemarker.parentdirectory" type="java.lang.String">mail</property>
+  <property name="error.nodegroup.config.freemarker.template" type="java.lang.String">config_err</property>
+  
+  <property name="error.nodegroup.timeout.mail.to" type="java.lang.String">SBMS-DFAdminToolsCN@intuit.com</property>
+  <property name="error.nodegroup.timeout.mail.subject" type="java.lang.String">Connection to Nodegroup Timeout</property>
+  <property name="error.nodegroup.timeout.freemarker.parentdirectory" type="java.lang.String">mail</property>
+  <property name="error.nodegroup.timeout.freemarker.template" type="java.lang.String">ng_timeout</property>
+  
+  <property name="site.status.freemarker.parentdirectory" type="java.lang.String">site</property>
+  <property name="site.status.freemarker.template" type="java.lang.String">sitestatus</property>
+  <property name="site.status.data.path" type="java.lang.String">/usr/local/ROOT-FILES/siteStatusData.xml</property>
+  <property name="site.status.file.source" type="java.lang.String">/usr/local/ROOT-FILES/siteStatus.html</property>
+  <property name="site.status.file.sh" type="java.lang.String">sshpass -p VTjSntQ4gmsBBmVhnDQ scp -o StrictHostKeyChecking=no /usr/local/ROOT-FILES/siteStatus.html webuploader@72.167.176.150:/var/www/html/index.html</property>
+  <property name="site.status.file.sh.dev" type="java.lang.String">sshpass -p ondemand scp -o StrictHostKeyChecking=no /usr/local/ROOT-FILES/siteStatus.html root@172.16.12.40:/var/www/html/</property>
+  
+  <property name="site.status.mail.freemarker.parentdirectory" type="java.lang.String">mail</property>
+  <property name="site.status.mail.freemarker.template" type="java.lang.String">site_status</property>
+  <property name="scheduler.switcher.siteStatus" type="java.lang.String">on</property>
+  
+  <property name="industry.properties" type="java.util.List">Insurance,Specialties,Payment,LanguagesSpoken</property>
+  <property name="industry.properties.mapping" type="java.util.Map">Insurance=Insurance,Specialties=specialties,Payment=Payment,LanguagesSpoken=languagesspoken</property>
+  
+  <property name="business.contract.maxsize" type="java.lang.Integer">307200</property>
+  
+  <property name="scheduler.switcher.businessStatus" type="java.lang.String">on</property>
+  <property name="info.scheduler.businessStatus.mail.to" type="java.lang.String">SBMS-DFAdminToolsCN@intuit.com</property>
+  
+  <property name="env.bp.local.url" type="java.lang.String">localhost:8080</property>
+  <property name="env.bp.dev.url" type="java.lang.String">172.16.1.132</property>
+  <property name="env.bp.staging.url" type="java.lang.String">172.16.1.101</property>
+  <property name="env.bp.e2tstg.url" type="java.lang.String">df-stg-web01.us-west-2b.dfengg.com</property>
+
+  <property name="role.administrator.name" type="java.lang.String">ROLE_ADMIN</property>
+  
+  <property name="role.limited_user.name" type="java.lang.String">ROLE_LIMITED_USER</property>
+  
+  <property name="user.mail.parentDirectory" type="java.lang.String">/usr/local/ROOT-FILES/pwd</property>
+  <property name="exclude.nodegroup" type="java.lang.String">ng37,ng38,ng39,ng40</property>
+</config>

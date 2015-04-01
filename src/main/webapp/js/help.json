@@ -1,0 +1,140 @@
+{
+    "date-updated": "5/7/13", 
+    "help": [
+        {
+            "id": "Affiliation-Logo-ShortName", 
+            "location": "Update Request - Industry - Affiliation Logo", 
+            "text": "<p>This is a shortened version of the Affiliation Name.</p>"
+        }, 
+        {
+            "id": "Affiliation-Logo-Website-URL", 
+            "location": "Update Request - Industry - Affiliation Logo", 
+            "text": "<p>This is the url that the user is redirected to when they click on the affiliation logo image from Business Profile.</p>"
+        }, 
+        {
+            "id": "Edit-Affiliation-Logo-ShortName", 
+            "location": "Update Request - Industry - Affiliation Logo", 
+            "text": "<p>This is a shortened version of the Affiliation Name.</p>"
+        }, 
+        {
+            "id": "Edit-Affiliation-Logo-Website-URL", 
+            "location": "Update Request - Industry - Affiliation Logo", 
+            "text": "<p>This is the url that the user is redirected to when they click on the affiliation logo image from Business Profile.</p>"
+        }, 
+        {
+            "id": "Cellphone-Reset", 
+            "location": "Update Request - Customer - Reset Cellphone", 
+            "text": "<p>This tool removes the cellphone number from the Open Market database.</p>"
+        },
+        {
+            "id": "Customer-Status-Update", 
+            "location": "Update Request - Customer - Customer Status ", 
+            "text": "<p class='helpTitle'>What do the statuses mean?</p><ul><li>Active: Customers are opted-in in communications (email/sms).</li><li>Deleted: Customer are deleted from the list of customers.</li></ul>"
+        }, 
+        {
+            "id": "Vehicle-Status-Update", 
+            "location": "Update Request - Customer - Vehicle Status ", 
+            "text": "<p class='helpTitle'>What do the statuses mean?</p><ul><li>Active: Vehicles are still using services from the shop.</li><li>Inactive: Vehicles are not with the shop anymore.</li></ul>"
+        },
+        {
+            "id": "industryProperties-update-value", 
+            "location": "Update Request - Industry - Property ", 
+            "text": "<p>This is the list of items you want to modify in the category you selected.</p>"
+        }, 
+        {
+            "id": "industryProperties-full-value", 
+            "location": "Update Request - Industry - Property Full Featured ", 
+            "text": "<p>For &ldquo;Property Value&rdquo;: Some property value has a &ldquo;Default&rdquo; label. That means the property has no specified value for the industry, so its value is the default one which is generic.</p>"
+        },
+        {
+            "id": "industryProperties-update-property", 
+            "location": "Update Request - Industry - Property ", 
+            "text": "<p>This is the category you wish to change in the business information. Currently, we provide the ability to change 4 items.</p>"
+        },
+        {
+            "id": "communicationOptions-update-status",
+            "location": "Update Request - Customer - Communication Options",
+            "text": "<p>By opting-in/opting-out you are turning off the Communication Type you selected.</p>"
+        },
+        {
+            "id": "Pet-Status-Update",
+            "location": "Update Request - Customer - Pet Status",
+            "text": "<p class='helpTitle'>What do the statuses mean?</p><ul><li>Active: Pets are still using services from the shop.</li><li>Inactive: Pets are not with the shop anymore.</li></ul>"
+        },
+        {
+            "id": "billingAlert-update-status",
+            "location": "Update Request - Business - Billing Alert",
+            "text": "<p class='helpTitle'>What do the statuses &ldquo;On&rdquo; and &ldquo;Off&rdquo; mean?</p><ul><li>On: This means that the businesses in the list will have the billing alert splashpage displayed on their dashboard.</li><li>Off: This means that the businesses in the list will have the billing alert splashpage removed from their dashboard.</li></ul>"
+        },
+        {
+            "id": "businessStatus-update-status",
+            "location": "Update Request - Business - Business Status Update",
+            "text": "<p class='helpTitle'>What do the statuses mean?</p><ul><li>Unverified: Demandforce Network portal unclaimed by business.</li><li>Verified: Demandforce Network portal that has been claimed by the business.</li><li>Setup: Use this status when the customer is not ready to start sending communications.</li><li>Active: This will activate the business and enable any communications that are on.</li><li>Canceled: Use this status when a customer has canceled.</li><li>Suspended: This will inactivate the portal and remove it from all feeds.</li></ul>"
+        },
+        {
+            "id": "businessSyndication-update-status",
+            "location": "Update Request - Business - Syndication",
+			"text": "<p class='helpTitle'>What do the statuses mean?</p><p>IsTest: This business is a test account should not be included in Demandforce Syndication services.</p><p>IsIndex: This business is an real account and should be included in Demandforce Syndication services.</p>"
+        },
+        {
+            "id": "splash-startDate",
+            "location": "Update Request - Industry - Splash",
+			"text": "<p>Usually if a Start Date is May 1st, that means the start time is May 1st, 00:00 am.</p>"
+        },
+        {
+            "id": "splash-expirationDate",
+            "location": "Update Request - Industry - Splash",
+			"text": "<p>Usually if an Expiration Date is May 30th, that means the expiration time is May 30th, 23:00 pm, but not May 31th, 00:00 am.</p>"
+        },
+        {
+            "id": "splash-type",
+            "location": "Update Request - Industry - Splash",
+			"text": "<p>Currently, we provide the ability to add the following types of Splash:</p><p>- Full-screen Splash, which will be displayed by itself, will be only be used after successful login,before Dashboard is displayed;</p><p>- Main Content Addition Splash, which will be displayed at the top of main content section of top-level Tabs.</p>"
+        },
+        {
+            "id": "splash-displayTab",
+            "location": "Update Request - Industry - Splash",
+			"text": "<p>Currently, Dashboard on D3 Portal is the only Tab to display Main Content Addition Splash.</p>"
+        },
+        {
+            "id": "user-role",
+            "location": "Update Request - Industry - Splash",
+			"text": "<p>'Administrator' always has the right of User Management. 'Limited User' always has NO rights of User Management</p>"
+        },
+        {
+            "id": "systemAlert-startDate",
+            "location": "Update Request - Industry - System Alert",
+            "text": "<p>Usually if a Start Date is May 1st, that means the start time is May 1st, 00:00 am.</p>"
+        },        
+        {
+            "id": "systemAlert-expirationDate",
+            "location": "Update Request - Industry - System Alert",
+            "text": "<p>Usually if an Expiration Date is May 30th, that means the expiration time is May 30th, 23:00 pm, but not May 31th, 00:00 am.</p>"
+        },      
+        {
+            "id": "systemAlert-count",
+            "location": "Update Request - Industry - System Alert",
+            "text": "<p>The number is the total Business which have this system alert.</p>"
+        },            
+        {
+            "id": "salesforceID",
+            "location": "Users - Authorized - UserManagement - Add User",
+			"text": "<p>His/Her Salesforce ID. Fill in this item to synchronize his/her Salesforce account with business portal. It can be added later</p>"
+        },
+        {
+            "id": "downloadFile_addUser",
+            "location": "Users - Authorized - UserManagement - Add User",
+			"text": "<p>In this file, the options 'FirstName', 'LastName' and 'Email' are required, 'Password' and 'SalesforceID' are optional.</p>"
+        },
+        {
+            "id": "business-options-ref",
+            "location": "Business - Update Request - Business Options",
+            "text": "<p>The input OptionType number isn't defined in Dfcore Constants class!</p>"
+        },
+        {
+            "id": "review_removal_reason",
+            "location": "Reputation - Remove Review",
+            "text": "<p class='helpTitle'>What do the removal reasons mean?</p><ul><li>Derogatory Language：The review is abusive. An abusive review or comment is one that makes personal attack,threatens, or harasses others, or uses profanity.</li><li>Mentioned By Name:The review mentions specific names of individuals or posts personal information in the review or comments in a manner that is inappropriate and/or unrelated to the performance of the rendered.</li><li>Not Current Customer：The review is not from a current patient/customer. A current patient/customer is one who has received services within the preceding 12 months.</li><li>Contains Inaccuracies:The review contains material falsehoods or inaccuracies.</li><li>End-User Request:The end-user (customer of an auto shop, patient of a dental office, client of a salon) is emailing or contacting us directly, asking us to remove their review that they posted from the Web.</li></ul>"
+        }        
+    ]
+}
